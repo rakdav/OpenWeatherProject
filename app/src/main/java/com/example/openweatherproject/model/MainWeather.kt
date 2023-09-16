@@ -16,4 +16,5 @@ data class MainWeather(
     @SerializedName("id") var id:Int,
     @SerializedName("name") var name:String,
     @SerializedName("cod") var cod:Int
+
 )
